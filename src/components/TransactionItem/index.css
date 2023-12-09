@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.cart {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 14px;
+  padding-right: 14px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+@media screen and (min-width: 768px) {
+  .cart {
+    width: 30%;
+  }
+}
+.money-cart1 {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.money-cart2 {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.money-cart3 {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+.money-manager-item {
+  display: flex;
+  align-items: center;
+}
+.image {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.balance-cart {
+  display: flex;
+  flex-direction: column;
+}
+.money-category {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #334155;
+}
+.br-line {
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+.balance {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #334155;
+  line-height: 0px;
+}
+.unorder-list-money-item {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-top: 27px;
+}
+@media screen and (min-width: 768px) {
+  .unorder-list-money-item {
+    justify-content: space-between;
+  }
+}

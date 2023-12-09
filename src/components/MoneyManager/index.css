@@ -1,0 +1,146 @@
+/* Write your CSS here */
+.container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.money-manager-cart {
+  width: 90%;
+}
+.profile-section {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding-top: 16px;
+  padding-bottom: 13px;
+  padding-left: 18px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .profile-section {
+    justify-content: start;
+    align-items: flex-start;
+    padding-left: 30px;
+  }
+}
+.user-name {
+  font-size: 22px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+.welcome-to-mm {
+  font-size: 17px;
+  font-family: 'Roboto';
+  color: #475569;
+}
+.money-manager {
+  color: #0b69ff;
+}
+.input-elements-cart {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  padding-left: 23px;
+  padding-right: 23px;
+  border-radius: 6px;
+  margin-bottom: 18px;
+}
+@media screen and (min-width: 768px) {
+  .input-elements-cart {
+    width: 39%;
+  }
+}
+.add-transaction {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #334155;
+}
+.label-text {
+  font-size: 10px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #334155;
+}
+.input-element {
+  height: 45px;
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  margin-top: 10px;
+  margin-bottom: 18px;
+  padding-left: 10px;
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #334155;
+  outline: none;
+  border-radius: 6px;
+}
+.money-input-manager {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .money-input-manager {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.add-button {
+  background-color: #0b69ff;
+  height: 40px;
+  width: 80px;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  padding-left: 0px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-family: 16px;
+  font-weight: 600;
+}
+.history-container {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 23px;
+  padding-right: 23px;
+  border-radius: 6px;
+}
+@media screen and (min-width: 768px) {
+  .history-container {
+    width: 59%;
+  }
+}
+.table-column {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #cbd5e1;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  border-top-left-radius: 6px;
+  border-top-left-radius: 6px;
+}
+.money-details-cart {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.column {
+  width: 30%;
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 600;
+}
